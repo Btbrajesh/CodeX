@@ -4,6 +4,7 @@ import IconBtn from './IconBtn'
 const ConfirmationModal = ({modalData}) => {
   return (
     <div>
+        {/* jai shri */}
         <div className='w-11/12 max-w-[350px] rounded-lg border border-richblack-400 bg-richblack-800 p-6 z-50 fixed left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2'>
             <p className='text-2xl font-semibold text-richblack-5'>
                 {modalData.text1}
